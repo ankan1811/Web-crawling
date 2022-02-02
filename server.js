@@ -4,7 +4,7 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 
 
-const URL = "https://www.flipkart.com/search?q=mobiles";
+const URL = "https://stackoverflow.com/";
 
 request(URL, function (err, res, body) {
 	if(err)
